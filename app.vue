@@ -1,5 +1,8 @@
+<script setup lang="ts">
+import { App } from "konsta/vue";
+</script>
 <template>
-  <div>
-    <NuxtPage />
-  </div>
+    <App theme="ios">
+        <NuxtPage />
+    </App>
 </template>
